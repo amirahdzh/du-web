@@ -1,11 +1,20 @@
 <template>
-<section class="hero">
-  <div class="hero-content">
-    <h1>Bersama, Kita Bantu Mereka yang Membutuhkan</h1>
-    <p>Mari bergabung untuk meningkatkan kesejahteraan sosial masyarakat.</p>
-    <button class="cta">Donasi Sekarang</button>
+<section class="hero bg-blue-500 text-white py-10">
+  <div class="container mx-auto px-4">
+    <h1 class="text-4xl font-bold text-center">
+      Bersama, Kita Bantu Mereka yang Membutuhkan
+    </h1>
+    <p class="text-center mt-4">
+      Mari bergabung untuk meningkatkan kesejahteraan sosial masyarakat.
+    </p>
+    <div class="text-center mt-6">
+      <button class="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-2 px-4 rounded">
+        Donasi Sekarang
+      </button>
+    </div>
   </div>
 </section>
+
 <section class="about">
   <h2>Misi Kami</h2>
   <p>Memastikan tidak ada yang tertinggal dalam kesejahteraan sosial, dari anak yatim hingga keluarga kurang mampu.</p>

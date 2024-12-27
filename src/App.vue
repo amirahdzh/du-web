@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-blue-100 min-h-screen text-center">
     <Header />
-    <router-view />
+    <main class="p-4">
+      <router-view />
+    </main>
     <Footer />
   </div>
 </template>
@@ -19,6 +21,7 @@ export default {
 </script>
 
 <style>
+/* Tidak ada style di sini kecuali bawaan global */
 /* Styling global */
 body {
   font-family: Arial, sans-serif;
