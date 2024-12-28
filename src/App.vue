@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="bg-blue-100 min-h-screen text-center">
+  <div id="app" class="bg-white min-h-screen text-center">
     <Header />
-    <main class="p-4">
+    <main class="">
       <router-view />
     </main>
     <Footer />

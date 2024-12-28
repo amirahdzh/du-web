@@ -1,37 +1,33 @@
 <template>
-    <footer class="footer">
-      <div class="footer-content">
-        <p>© 2024 Yayasan Daarul Ummahaat. All rights reserved.</p>
-        <p>Kontak: +62 123 4567 890 | info@daarulummahaat.org</p>
-        <div class="social-media">
-          <a href="#"><img src="/assets/icons/facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="/assets/icons/instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="/assets/icons/twitter.png" alt="Twitter"></a>
-        </div>
+  <footer class="bg-primary text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-neutral text-sm">
+        © 2024 Yayasan Daarul Ummahaat. All rights reserved.
+      </p>
+      <p class="text-neutral text-sm mt-2">
+        Kontak: +62 123 4567 890 | info@daarulummahaat.org
+      </p>
+      <div class="mt-4 flex justify-center space-x-4">
+        <a href="#" class="hover:text-secondary transition duration-300">
+          <img src="/assets/icons/facebook.png" alt="Facebook" class="w-6 h-6 inline">
+        </a>
+        <a href="#" class="hover:text-secondary transition duration-300">
+          <img src="/assets/icons/instagram.png" alt="Instagram" class="w-6 h-6 inline">
+        </a>
+        <a href="#" class="hover:text-secondary transition duration-300">
+          <img src="/assets/icons/twitter.png" alt="Twitter" class="w-6 h-6 inline">
+        </a>
       </div>
-    </footer>
-  </template>
-  
-  <script>
-  export default {
-    name: "Footer",
-  };
-  </script>
-  
-  <style scoped>
-  .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
-  .footer-content {
-    max-width: 1200px;
-    margin: auto;
-  }
-  .social-media img {
-    width: 24px;
-    margin: 0 10px;
-  }
-  </style>
-  
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "Footer",
+};
+</script>
+
+<style scoped>
+/* Optional scoped styles if needed */
+</style>
